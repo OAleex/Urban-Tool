@@ -37,7 +37,7 @@ namespace Urban_Tool
 
                         int primeiroponteiro = br.ReadInt32(); // Lê o primeiro ponteiro
 
-                        // A quantidade de texto é o primeiro ponteiro dividido por 4...
+                        //  A quantidade de texto é o primeiro ponteiro dividido por 4...
                         // Você pode pegar a quantidade de textos e multiplicar por 4 (se o ponteiro for de 4 bytes) caso queira conferir se vai dar certo em cada arquivo 
                         int quantidadedeponteiros = primeiroponteiro / 4;
 
