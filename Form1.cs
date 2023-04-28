@@ -263,7 +263,7 @@ namespace Urban_Tool
         {
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
             openFileDialog1.Filter = "Arquivo ppk|*.ppk|Todos os arquivos (*.*)|*.*";
-            openFileDialog1.Title = "Escolha o(s) arquivo(s) ppk";
+            openFileDialog1.Title = "Escolha o arquivo ppk";
             openFileDialog1.Multiselect = false;
 
             // Aqui é a condição da caixa de diálogo para selecionar o arquivo
@@ -327,7 +327,7 @@ namespace Urban_Tool
 
                     OpenFileDialog openFileDialog2 = new OpenFileDialog();
                     openFileDialog2.Filter = "Arquivo ppk|*.txt|All files (*.*)|*.*";
-                    openFileDialog2.Title = "Selecione o arquivo select_en.txt";
+                    openFileDialog2.Title = "Selecione o arquivo de texto";
                     openFileDialog2.Multiselect = true;
 
                     // aqui é a condição da caixa
